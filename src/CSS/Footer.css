@@ -1,0 +1,59 @@
+#Footercontenedor {
+  background-color: #0A3143;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  position: fixed;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+#Footercontenedor h3 {
+  font-size: 0.8rem;
+  margin: 5px 0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a svg {
+  width: 23px;
+  height: 23px;
+}
+.social-icons a:hover:nth-child(1) {
+  color: #1877f2; /* Color de Facebook */
+}
+
+.social-icons a:hover:nth-child(2) {
+  color: #bc2a8d; /* Color de Instagram */
+}
+
+.social-icons a:hover:nth-child(3) {
+  color: #25d366; /* Color de Whatsapp */
+}
+
+#Footercontenedor h3:last-child {
+  text-align: right;
+}

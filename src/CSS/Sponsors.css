@@ -1,0 +1,17 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; /* Agrega esta línea para centrar verticalmente */
+}
+
+.card {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+/* Estilos adicionales para centrar horizontalmente las imágenes en las tarjetas */
+.card img {
+  display: block;
+  margin: 0 auto;
+}
